@@ -88,7 +88,7 @@ const TrangChu = () => {
         alt="Khủng long"
         style={{
           position: 'absolute',
-          top: '-15px',
+          top: '3%',
           left: '32%',
           width: '40vw',
           zIndex: 1,
