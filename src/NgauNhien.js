@@ -76,7 +76,7 @@ const NgauNhien = () => {
       </div>
       <button
         onClick={() => navigate('/')}
-        style={{ padding: '8px 20px', fontSize: '18px', borderRadius: '20px', backgroundColor: '#61CEBE', fontWeight: '500', border: '2px solid black' }}
+        style={{ padding: '8px 20px', fontSize: '18px', borderRadius: '20px', backgroundColor: '#61CEBE', fontWeight: '500', border: '2px solid black', textDecoration: 'none' }}
       >
         Quay về trang chủ
       </button>
