@@ -1,0 +1,9 @@
+:root {
+  --vh: 100%;
+}
+
+.trangchu-container {
+  position: relative;
+  width: 100%;
+  height: calc(var(--vh, 1vh) * 100);
+}

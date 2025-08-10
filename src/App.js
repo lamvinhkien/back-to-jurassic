@@ -1,5 +1,8 @@
-import TrangChu from "./TrangChu";
 import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import TrangChu from "./TrangChu";
+import NgauNhien from "./NgauNhien";
+import Dino1 from './Dino1';
 
 const styles = `
     @font-face {
@@ -23,9 +26,20 @@ function App() {
 
   }, []);
   return (
-    <div className="App overflow-hidden">
-      <TrangChu />
-    </div>
+    <Router>
+      <div className="App">
+        <Routes>
+          <Route path="/" element={<TrangChu />} />
+          <Route path="/ngau-nhien" element={<NgauNhien />} />
+          <Route path="/dino-1" element={<Dino1 />} />
+          <Route path="/dino-2" element={<Dino1 />} />
+          <Route path="/dino-3" element={<Dino1 />} />
+          <Route path="/dino-4" element={<Dino1 />} />
+          <Route path="/dino-5" element={<Dino1 />} />
+          <Route path="/dino-6" element={<Dino1 />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 

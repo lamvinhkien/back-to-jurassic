@@ -1,10 +1,27 @@
+import './TrangChu.css'
+import { useEffect } from "react";
+import { useNavigate } from "react-router-dom";
+
 const TrangChu = () => {
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    const setVh = () => {
+      document.documentElement.style.setProperty(
+        "--vh",
+        `${window.innerHeight * 0.01}px`
+      );
+    };
+    setVh();
+    window.addEventListener("resize", setVh);
+    return () => window.removeEventListener("resize", setVh);
+  }, []);
+
   return (
     <div
-      className="TrangChu"
+      className="trangchu-container overflow-hidden"
       style={{
         position: 'relative',
-        overflow: 'hidden',
         minHeight: '100vh',
         background: 'linear-gradient(180deg, #FFFBE2 0%, #FFFBE2 50%, #FFE3A4 100%)',
         padding: '20px',
@@ -131,6 +148,7 @@ const TrangChu = () => {
             fontWeight: 'bold',
             boxShadow: '2px 2px 0px 0px black',
           }}
+          onClick={() => navigate('/ngau-nhien')}
         >
           Bắt Đầu
         </button>
