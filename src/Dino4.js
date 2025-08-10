@@ -52,7 +52,7 @@ const Dino4 = () => {
           />
 
           {/* Text bên phải */}
-          <span className="fw-medium">
+          <span className="fw-medium" style={{ textAlign: 'start' }}>
             Dài khoảng 8-9 mét, cao 3 mét, nặng khoảng 6-12 tấn.
           </span>
         </div>
@@ -67,7 +67,7 @@ const Dino4 = () => {
           marginBottom: '30px'
         }}
       >
-        <div style={{ fontSize: '18px', color: 'white', textAlign: 'start', }}>
+        <div style={{ fontSize: '18px', color: 'white', textAlign: 'justify', }}>
           <div style={{ border: '1px solid black', borderRadius: '20px', backgroundColor: '#afaa43ff', marginBottom: '15px', padding: '12px', overflowWrap: 'break-word' }}>
             <p className="text-center fw-bold">THÔNG TIN</p>
             Triceratops là loài khủng long ăn cỏ có ba sừng to khỏe - hai sừng dài trên mắt và một sừng nhỏ trên mũi. Ngoài việc chống lại kẻ thù như T. rex, các nhà khoa học tin rằng sừng và vành xương lớn phía sau đầu còn giúp chúng giao tiếp, phô diễn sức mạnh và tranh giành bạn đời, tương tự như hươu hay trâu ngày nay.

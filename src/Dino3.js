@@ -52,7 +52,7 @@ const Dino3 = () => {
           />
 
           {/* Text bên phải */}
-          <span className="fw-medium">
+          <span className="fw-medium" style={{ textAlign: 'start' }}>
             Dài khoảng 21-22 mét, cao khoảng 4,5-5 mét ở vai, nặng từ 15-20 tấn.
           </span>
         </div>
@@ -67,7 +67,7 @@ const Dino3 = () => {
           marginBottom: '30px'
         }}
       >
-        <div style={{ fontSize: '18px', color: 'white', textAlign: 'start', }}>
+        <div style={{ fontSize: '18px', color: 'white', textAlign: 'justify', }}>
           <div style={{ border: '1px solid black', borderRadius: '20px', backgroundColor: '#b3642cff', marginBottom: '15px', padding: '12px', overflowWrap: 'break-word' }}>
             <p className="text-center fw-bold">THÔNG TIN</p>
             Brontosaurus là một loài khủng long ăn cỏ khổng lồ, cổ dài, đuôi dài và thân hình nặng nề. Chúng di chuyển chậm chạp nhưng bền bỉ, mỗi ngày có thể ăn tới hàng trăm kg lá cây. Mặc dù to lớn, Brontosaurus hiền lành, sống theo bầy đàn để bảo vệ lẫn nhau khỏi các loài ăn thịt.

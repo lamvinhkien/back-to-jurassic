@@ -52,7 +52,7 @@ const Dino5 = () => {
           />
 
           {/* Text bên phải */}
-          <span className="fw-medium">
+          <span className="fw-medium" style={{ textAlign: 'start' }}>
             Sải cánh rộng 7-10 mét, chiều dài cơ thể khoảng 2 mét, nặng chỉ khoảng 25-35 kg nhờ xương rỗng.
           </span>
         </div>
@@ -67,7 +67,7 @@ const Dino5 = () => {
           marginBottom: '30px'
         }}
       >
-        <div style={{ fontSize: '18px', color: 'white', textAlign: 'start', }}>
+        <div style={{ fontSize: '18px', color: 'white', textAlign: 'justify', }}>
           <div style={{ border: '1px solid black', borderRadius: '20px', backgroundColor: '#7a2faeff', marginBottom: '15px', padding: '12px', overflowWrap: 'break-word' }}>
             <p className="text-center fw-bold">THÔNG TIN</p>
             Pteranodon không phải khủng long thật sự mà là một loài bò sát bay. Cánh của chúng được tạo thành từ một màng da căng giữa ngón tay và cơ thể, giúp chúng bay lượn hàng trăm cây số chỉ với vài lần vỗ cánh. Mào lớn trên đầu có thể giúp giữ thăng bằng hoặc điều hướng khi bay.

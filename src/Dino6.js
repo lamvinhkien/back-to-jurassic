@@ -52,7 +52,7 @@ const Dino6 = () => {
           />
 
           {/* Text bên phải */}
-          <span className="fw-medium">
+          <span className="fw-medium" style={{ textAlign: 'start' }}>
             Dài khoảng 9 mét, cao tới 4 mét tính từ đỉnh tấm lưng, nặng khoảng 4-5 tấn.
           </span>
         </div>
@@ -67,7 +67,7 @@ const Dino6 = () => {
           marginBottom: '30px'
         }}
       >
-        <div style={{ fontSize: '18px', color: 'white', textAlign: 'start', }}>
+        <div style={{ fontSize: '18px', color: 'white', textAlign: 'justify', }}>
           <div style={{ border: '1px solid black', borderRadius: '20px', backgroundColor: '#599db4ff', marginBottom: '15px', padding: '12px', overflowWrap: 'break-word' }}>
             <p className="text-center fw-bold">THÔNG TIN</p>
             Stegosaurus nổi tiếng với hai hàng tấm xương lớn chạy dọc lưng, mỗi tấm cao tới 60cm. Các nhà khoa học cho rằng tấm xương này có thể dùng để điều hòa nhiệt, bảo vệ, hoặc thu hút bạn đời. Một số nghiên cứu còn cho thấy các tấm này có nhiều mạch máu, có thể thay đổi màu sắc khi máu dồn lên.

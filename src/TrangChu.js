@@ -83,7 +83,7 @@ const TrangChu = () => {
       />
 
       {/* Khủng long 5 */}
-      {/* <img
+      <img
         src="/images/dino3.png"
         alt="Khủng long"
         style={{
@@ -93,7 +93,7 @@ const TrangChu = () => {
           width: '40vw',
           zIndex: 1,
         }}
-      /> */}
+      />
 
       {/* Khủng long 6 */}
       <img

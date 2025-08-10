@@ -52,7 +52,7 @@ const Dino2 = () => {
           />
 
           {/* Text bên phải */}
-          <span className="fw-medium">
+          <span className="fw-medium" style={{ textAlign: 'start' }}>
             Dài khoảng 12-13 mét, cao khoảng 4 mét (tính từ chân đến hông), nặng từ 8-9 tấn.
           </span>
         </div>
@@ -67,7 +67,7 @@ const Dino2 = () => {
           marginBottom: '30px'
         }}
       >
-        <div style={{ fontSize: '18px', color: 'white', textAlign: 'start', }}>
+        <div style={{ fontSize: '18px', color: 'white', textAlign: 'justify', }}>
           <div style={{ border: '1px solid black', borderRadius: '20px', backgroundColor: '#7ca12bff', marginBottom: '15px', padding: '12px', overflowWrap: 'break-word' }}>
             <p className="text-center fw-bold">THÔNG TIN</p>
             Tyrannosaurus Rex, hay còn gọi là "Vua Khủng Long", là một trong những kẻ săn mồi lớn nhất từng tồn tại trên Trái Đất. Hộp sọ khổng lồ của nó không chỉ chứa bộ hàm có lực cắn mạnh nhất trong thế giới khủng long, mà còn có khu vực não chuyên xử lý mùi cực lớn. Điều này cho phép T-Rex phát hiện mùi xác thối hoặc mùi máu từ khoảng cách nhiều cây số.
