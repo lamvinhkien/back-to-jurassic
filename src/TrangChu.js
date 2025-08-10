@@ -23,7 +23,7 @@ const TrangChu = () => {
       style={{
         position: 'relative',
         minHeight: '100vh',
-        background: 'linear-gradient(180deg, #FFFBE2 0%, #FFFBE2 50%, #FFE3A4 100%)',
+        background: 'linear-gradient(180deg, #FFE3A4 0%, #FFFBE2 50%, #FFE3A4 100%)',
         padding: '20px',
         boxSizing: 'border-box',
         display: 'grid',
@@ -33,24 +33,24 @@ const TrangChu = () => {
       {/* Khủng long 1 */}
       <img
         src="/images/dino5.png"
-        alt="Khủng long hồng"
+        alt="Khủng long"
         style={{
           position: 'absolute',
-          top: '7%',
-          left: '8%',
-          width: '37vw',
+          bottom: '12%',
+          left: '5%',
+          width: '35vw',
           zIndex: 1,
         }}
       />
 
       {/* Khủng long 2 */}
       <img
-        src="/images/dino9.png"
-        alt="Khủng long vàng"
+        src="/images/dino2.png"
+        alt="Khủng long"
         style={{
           position: 'absolute',
-          bottom: '11%',
-          left: '8%',
+          bottom: '6%',
+          left: '34%',
           width: '40vw',
           zIndex: 1,
         }}
@@ -58,28 +58,52 @@ const TrangChu = () => {
 
       {/* Khủng long 3 */}
       <img
-        src="/images/dino7.png"
-        alt="Khủng long cam"
+        src="/images/dino1.png"
+        alt="Khủng long"
         style={{
           position: 'absolute',
           bottom: '10%',
-          right: '-20px',
-          width: '55vw',
-          transform: 'rotate(10deg)',
+          right: '-10px',
+          width: '35vw',
           zIndex: 1,
         }}
       />
 
       {/* Khủng long 4 */}
       <img
-        src="/images/dino10.png"
-        alt="Khủng long xanh dương"
+        src="/images/dino4.png"
+        alt="Khủng long"
         style={{
           position: 'absolute',
-          top: '9%',
-          right: '-5px',
-          width: '53vw',
-          transform: 'rotate(10deg)',
+          top: '10%',
+          left: '3%',
+          width: '45vw',
+          zIndex: 1,
+        }}
+      />
+
+      {/* Khủng long 5 */}
+      {/* <img
+        src="/images/dino3.png"
+        alt="Khủng long"
+        style={{
+          position: 'absolute',
+          top: '-15px',
+          left: '32%',
+          width: '40vw',
+          zIndex: 1,
+        }}
+      /> */}
+
+      {/* Khủng long 6 */}
+      <img
+        src="/images/dino6.png"
+        alt="Khủng long"
+        style={{
+          position: 'absolute',
+          top: '8%',
+          right: '5%',
+          width: '45vw',
           zIndex: 1,
         }}
       />

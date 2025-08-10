@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 
-const Dino1 = () => {
+const Dino6 = () => {
   const navigate = useNavigate();
 
   return (
@@ -9,7 +9,7 @@ const Dino1 = () => {
       style={{
         position: 'relative',
         minHeight: '100vh',
-        background: 'linear-gradient(180deg, #FE60BE 0%, #FFFBE2 50%, #FE60BE 100%)',
+        background: 'linear-gradient(180deg, #7DDCFD 0%, #FFFBE2 50%, #7DDCFD 100%)',
         padding: '25px 25px 100px 25px',
         boxSizing: 'border-box',
         display: 'grid',
@@ -30,30 +30,30 @@ const Dino1 = () => {
         <h1
           className="title"
           style={{
-            color: '#FE60BE',
+            color: '#7DDCFD',
             textShadow: '1.5px 1.5px 0px black, -1.5px -1.5px 0px black, 1.5px -1.5px 0px black, -1.5px 1.5px 0px black',
             fontWeight: '900',
             lineHeight: '1.2',
             fontSize: '28px'
           }}
         >
-          Spinosaurus
+          Stegosaurus
         </h1>
         <div style={{ display: "flex", alignItems: "center" }}>
           {/* Ảnh với border-right */}
           <img
-            src="/images/dino1.png"
-            alt="Spinosaurus"
+            src="/images/dino6.png"
+            alt="Stegosaurus"
             style={{
               width: "180px",
-              borderRight: "2px solid #a93f7eff",
+              borderRight: "2px solid #599db4ff",
               marginRight: "10px",
             }}
           />
 
           {/* Text bên phải */}
           <span className="fw-medium">
-            Kích thước dài từ 3-5 mét, nặng 400-500kg
+            Dài khoảng 9 mét, cao tới 4 mét tính từ đỉnh tấm lưng, nặng khoảng 4-5 tấn.
           </span>
         </div>
       </div>
@@ -68,13 +68,13 @@ const Dino1 = () => {
         }}
       >
         <div style={{ fontSize: '18px', color: 'white', textAlign: 'start', }}>
-          <div style={{ border: '1px solid black', borderRadius: '20px', backgroundColor: '#a93f7eff', marginBottom: '15px', padding: '12px', overflowWrap: 'break-word' }}>
+          <div style={{ border: '1px solid black', borderRadius: '20px', backgroundColor: '#599db4ff', marginBottom: '15px', padding: '12px', overflowWrap: 'break-word' }}>
             <p className="text-center fw-bold">THÔNG TIN</p>
-            Plesiosaurus không phải là khủng long, mà là loài bò sát biển sống cùng thời khủng long. Chúng có cổ dài chiếm gần một nửa cơ thể, bốn chi biến thành vây bơi, thích nghi tuyệt vời với cuộc sống dưới nước. Plesiosaurus chủ yếu ăn cá và động vật giáp xác, dùng cổ dài để tóm mồi nhanh trong khi thân mình giữ yên để không làm cá bỏ chạy.
+            Stegosaurus nổi tiếng với hai hàng tấm xương lớn chạy dọc lưng, mỗi tấm cao tới 60cm. Các nhà khoa học cho rằng tấm xương này có thể dùng để điều hòa nhiệt, bảo vệ, hoặc thu hút bạn đời. Một số nghiên cứu còn cho thấy các tấm này có nhiều mạch máu, có thể thay đổi màu sắc khi máu dồn lên.
           </div>
-          <div style={{ border: '1px solid black', borderRadius: '20px', backgroundColor: '#a93f7eff', padding: '12px', overflowWrap: 'break-word' }}>
+          <div style={{ border: '1px solid black', borderRadius: '20px', backgroundColor: '#599db4ff', padding: '12px', overflowWrap: 'break-word' }}>
             <p className="text-center fw-bold">CẬU CHUYỆN VUI NHỘN</p>
-            Một con Plesiosaurus lặng lẽ trôi dưới mặt biển, cổ nó uốn nhẹ như rắn nước. Khi phát hiện đàn cá nhỏ, nó chỉ cần vươn cổ ra, không hề khuấy động mặt nước - và "tóm!" - cả đàn cá bị nuốt gọn, trở thành bữa ăn ngon lành, trước khi kịp nhận ra chuyện gì đang xảy ra.
+            Khi trời lạnh, Stegosaurus quay lưng về phía mặt trời, các tấm xương hoạt động như tấm pin năng lượng, hấp thụ nhiệt để làm ấm cơ thể. Khi gặp kẻ thù, nó đứng thẳng người, lưng đỏ rực như một lời cảnh báo: "Đừng tới gần!".
           </div>
         </div>
       </div>
@@ -88,4 +88,4 @@ const Dino1 = () => {
   );
 };
 
-export default Dino1;
+export default Dino6;

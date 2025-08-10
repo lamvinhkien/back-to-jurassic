@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 
-const Dino1 = () => {
+const Dino3 = () => {
   const navigate = useNavigate();
 
   return (
@@ -9,7 +9,7 @@ const Dino1 = () => {
       style={{
         position: 'relative',
         minHeight: '100vh',
-        background: 'linear-gradient(180deg, #FE60BE 0%, #FFFBE2 50%, #FE60BE 100%)',
+        background: 'linear-gradient(180deg, #FF9243 0%, #FFFBE2 50%, #FF9243 100%)',
         padding: '25px 25px 100px 25px',
         boxSizing: 'border-box',
         display: 'grid',
@@ -30,30 +30,30 @@ const Dino1 = () => {
         <h1
           className="title"
           style={{
-            color: '#FE60BE',
+            color: '#FF9243',
             textShadow: '1.5px 1.5px 0px black, -1.5px -1.5px 0px black, 1.5px -1.5px 0px black, -1.5px 1.5px 0px black',
             fontWeight: '900',
             lineHeight: '1.2',
             fontSize: '28px'
           }}
         >
-          Spinosaurus
+          Brontosaurus
         </h1>
         <div style={{ display: "flex", alignItems: "center" }}>
           {/* Ảnh với border-right */}
           <img
-            src="/images/dino1.png"
-            alt="Spinosaurus"
+            src="/images/dino3.png"
+            alt="Brontosaurus"
             style={{
               width: "180px",
-              borderRight: "2px solid #a93f7eff",
+              borderRight: "2px solid #b3642cff",
               marginRight: "10px",
             }}
           />
 
           {/* Text bên phải */}
           <span className="fw-medium">
-            Kích thước dài từ 3-5 mét, nặng 400-500kg
+            Dài khoảng 21-22 mét, cao khoảng 4,5-5 mét ở vai, nặng từ 15-20 tấn.
           </span>
         </div>
       </div>
@@ -68,13 +68,13 @@ const Dino1 = () => {
         }}
       >
         <div style={{ fontSize: '18px', color: 'white', textAlign: 'start', }}>
-          <div style={{ border: '1px solid black', borderRadius: '20px', backgroundColor: '#a93f7eff', marginBottom: '15px', padding: '12px', overflowWrap: 'break-word' }}>
+          <div style={{ border: '1px solid black', borderRadius: '20px', backgroundColor: '#b3642cff', marginBottom: '15px', padding: '12px', overflowWrap: 'break-word' }}>
             <p className="text-center fw-bold">THÔNG TIN</p>
-            Plesiosaurus không phải là khủng long, mà là loài bò sát biển sống cùng thời khủng long. Chúng có cổ dài chiếm gần một nửa cơ thể, bốn chi biến thành vây bơi, thích nghi tuyệt vời với cuộc sống dưới nước. Plesiosaurus chủ yếu ăn cá và động vật giáp xác, dùng cổ dài để tóm mồi nhanh trong khi thân mình giữ yên để không làm cá bỏ chạy.
+            Brontosaurus là một loài khủng long ăn cỏ khổng lồ, cổ dài, đuôi dài và thân hình nặng nề. Chúng di chuyển chậm chạp nhưng bền bỉ, mỗi ngày có thể ăn tới hàng trăm kg lá cây. Mặc dù to lớn, Brontosaurus hiền lành, sống theo bầy đàn để bảo vệ lẫn nhau khỏi các loài ăn thịt.
           </div>
-          <div style={{ border: '1px solid black', borderRadius: '20px', backgroundColor: '#a93f7eff', padding: '12px', overflowWrap: 'break-word' }}>
+          <div style={{ border: '1px solid black', borderRadius: '20px', backgroundColor: '#b3642cff', padding: '12px', overflowWrap: 'break-word' }}>
             <p className="text-center fw-bold">CẬU CHUYỆN VUI NHỘN</p>
-            Một con Plesiosaurus lặng lẽ trôi dưới mặt biển, cổ nó uốn nhẹ như rắn nước. Khi phát hiện đàn cá nhỏ, nó chỉ cần vươn cổ ra, không hề khuấy động mặt nước - và "tóm!" - cả đàn cá bị nuốt gọn, trở thành bữa ăn ngon lành, trước khi kịp nhận ra chuyện gì đang xảy ra.
+            Một buổi sáng sương mù, đàn Brontosaurus cùng nhau băng qua sông cạn. Mỗi bước chân của chúng tạo ra những vết hằn sâu trên bùn - hàng triệu năm sau, những dấu chân này trở thành hóa thạch, kể lại câu chuyện về cuộc hành trình của "những người khổng lồ hiền lành" cho các nhà khoa học thời hiện đại.
           </div>
         </div>
       </div>
@@ -88,4 +88,4 @@ const Dino1 = () => {
   );
 };
 
-export default Dino1;
+export default Dino3;

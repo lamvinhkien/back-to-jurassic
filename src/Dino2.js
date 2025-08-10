@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 
-const Dino1 = () => {
+const Dino2 = () => {
   const navigate = useNavigate();
 
   return (
@@ -9,7 +9,7 @@ const Dino1 = () => {
       style={{
         position: 'relative',
         minHeight: '100vh',
-        background: 'linear-gradient(180deg, #FE60BE 0%, #FFFBE2 50%, #FE60BE 100%)',
+        background: 'linear-gradient(180deg, #B7EE3D 0%, #FFFBE2 50%, #B7EE3D 100%)',
         padding: '25px 25px 100px 25px',
         boxSizing: 'border-box',
         display: 'grid',
@@ -30,30 +30,30 @@ const Dino1 = () => {
         <h1
           className="title"
           style={{
-            color: '#FE60BE',
+            color: '#B7EE3D',
             textShadow: '1.5px 1.5px 0px black, -1.5px -1.5px 0px black, 1.5px -1.5px 0px black, -1.5px 1.5px 0px black',
             fontWeight: '900',
             lineHeight: '1.2',
             fontSize: '28px'
           }}
         >
-          Spinosaurus
+          Tyrannosaurus Rex
         </h1>
         <div style={{ display: "flex", alignItems: "center" }}>
           {/* Ảnh với border-right */}
           <img
-            src="/images/dino1.png"
-            alt="Spinosaurus"
+            src="/images/dino2.png"
+            alt="Tyrannosaurus Rex"
             style={{
               width: "180px",
-              borderRight: "2px solid #a93f7eff",
+              borderRight: "2px solid #7ca12bff",
               marginRight: "10px",
             }}
           />
 
           {/* Text bên phải */}
           <span className="fw-medium">
-            Kích thước dài từ 3-5 mét, nặng 400-500kg
+            Dài khoảng 12-13 mét, cao khoảng 4 mét (tính từ chân đến hông), nặng từ 8-9 tấn.
           </span>
         </div>
       </div>
@@ -68,13 +68,13 @@ const Dino1 = () => {
         }}
       >
         <div style={{ fontSize: '18px', color: 'white', textAlign: 'start', }}>
-          <div style={{ border: '1px solid black', borderRadius: '20px', backgroundColor: '#a93f7eff', marginBottom: '15px', padding: '12px', overflowWrap: 'break-word' }}>
+          <div style={{ border: '1px solid black', borderRadius: '20px', backgroundColor: '#7ca12bff', marginBottom: '15px', padding: '12px', overflowWrap: 'break-word' }}>
             <p className="text-center fw-bold">THÔNG TIN</p>
-            Plesiosaurus không phải là khủng long, mà là loài bò sát biển sống cùng thời khủng long. Chúng có cổ dài chiếm gần một nửa cơ thể, bốn chi biến thành vây bơi, thích nghi tuyệt vời với cuộc sống dưới nước. Plesiosaurus chủ yếu ăn cá và động vật giáp xác, dùng cổ dài để tóm mồi nhanh trong khi thân mình giữ yên để không làm cá bỏ chạy.
+            Tyrannosaurus Rex, hay còn gọi là "Vua Khủng Long", là một trong những kẻ săn mồi lớn nhất từng tồn tại trên Trái Đất. Hộp sọ khổng lồ của nó không chỉ chứa bộ hàm có lực cắn mạnh nhất trong thế giới khủng long, mà còn có khu vực não chuyên xử lý mùi cực lớn. Điều này cho phép T-Rex phát hiện mùi xác thối hoặc mùi máu từ khoảng cách nhiều cây số.
           </div>
-          <div style={{ border: '1px solid black', borderRadius: '20px', backgroundColor: '#a93f7eff', padding: '12px', overflowWrap: 'break-word' }}>
+          <div style={{ border: '1px solid black', borderRadius: '20px', backgroundColor: '#7ca12bff', padding: '12px', overflowWrap: 'break-word' }}>
             <p className="text-center fw-bold">CẬU CHUYỆN VUI NHỘN</p>
-            Một con Plesiosaurus lặng lẽ trôi dưới mặt biển, cổ nó uốn nhẹ như rắn nước. Khi phát hiện đàn cá nhỏ, nó chỉ cần vươn cổ ra, không hề khuấy động mặt nước - và "tóm!" - cả đàn cá bị nuốt gọn, trở thành bữa ăn ngon lành, trước khi kịp nhận ra chuyện gì đang xảy ra.
+            Một buổi sáng yên tĩnh, khi những con khủng long ăn cỏ đang gặm lá, một con T. rex ở xa hơn 5km đã "bắt" được mùi xác chết. Nó lập tức rảo bước, không cần đuổi theo con mồi, chỉ việc tìm đúng hướng là có bữa tiệc no nê. Điều này cho thấy T-Rex không chỉ là thợ săn mà còn là "kẻ dọn rác" siêu hiệu quả của hệ sinh thái.
           </div>
         </div>
       </div>
@@ -88,4 +88,4 @@ const Dino1 = () => {
   );
 };
 
-export default Dino1;
+export default Dino2;

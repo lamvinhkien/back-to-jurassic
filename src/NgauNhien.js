@@ -4,15 +4,15 @@ import { useNavigate } from "react-router-dom";
 
 const NgauNhien = () => {
   const navigate = useNavigate();
-  const [dino, setDino] = useState({ name: '', imgSrc: '' })
+  const [dino, setDino] = useState({ name: '', imgSrc: '', bgColor: '' })
   // eslint-disable-next-line react-hooks/exhaustive-deps
   const listDino = [
-    { name: 'Dino 1', imgSrc: '/images/dino1.png' },
-    { name: 'Dino 2', imgSrc: '/images/dino2.png' },
-    { name: 'Dino 3', imgSrc: '/images/dino3.png' },
-    { name: 'Dino 4', imgSrc: '/images/dino4.png' },
-    { name: 'Dino 5', imgSrc: '/images/dino5.png' },
-    { name: 'Dino 6', imgSrc: '/images/dino6.png' },
+    { name: 'Spinosaurus', imgSrc: '/images/dino1.png', bgColor: '#FE60BE' },
+    { name: 'Tyrannosaurus Rex', imgSrc: '/images/dino2.png', bgColor: '#B7EE3D' },
+    { name: 'Brontosaurus', imgSrc: '/images/dino3.png', bgColor: '#FF9243' },
+    { name: 'Triceratops', imgSrc: '/images/dino4.png', bgColor: '#FEF761' },
+    { name: 'Pteranodon', imgSrc: '/images/dino5.png', bgColor: '#B146FE' },
+    { name: 'Stegosaurus', imgSrc: '/images/dino6.png', bgColor: '#7DDCFD' },
   ]
 
   useEffect(() => {
@@ -69,8 +69,8 @@ const NgauNhien = () => {
         >
           DINO NGẪU NHIÊN
         </h1>
-        <img src={dino.imgSrc} alt={dino.name} style={{ width: '150px', margin: '15px 0px 30px 0px' }} />
-        <div style={{ border: '2px solid black', padding: '8px 0px 8px 0px', fontSize: '20px', fontWeight: '500', borderRadius: '20px', backgroundColor: '#61CEBE' }}>
+        <img src={dino.imgSrc} alt={dino.name} style={{ width: '200px' }} />
+        <div style={{ border: '2px solid black', padding: '8px 0px 8px 0px', fontSize: '20px', fontWeight: '500', borderRadius: '20px', backgroundColor: dino.bgColor }}>
           {dino.name}
         </div>
       </div>

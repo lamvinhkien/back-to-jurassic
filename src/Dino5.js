@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 
-const Dino1 = () => {
+const Dino5 = () => {
   const navigate = useNavigate();
 
   return (
@@ -9,7 +9,7 @@ const Dino1 = () => {
       style={{
         position: 'relative',
         minHeight: '100vh',
-        background: 'linear-gradient(180deg, #FE60BE 0%, #FFFBE2 50%, #FE60BE 100%)',
+        background: 'linear-gradient(180deg, #B146FE 0%, #FFFBE2 50%, #B146FE 100%)',
         padding: '25px 25px 100px 25px',
         boxSizing: 'border-box',
         display: 'grid',
@@ -30,30 +30,30 @@ const Dino1 = () => {
         <h1
           className="title"
           style={{
-            color: '#FE60BE',
+            color: '#B146FE',
             textShadow: '1.5px 1.5px 0px black, -1.5px -1.5px 0px black, 1.5px -1.5px 0px black, -1.5px 1.5px 0px black',
             fontWeight: '900',
             lineHeight: '1.2',
             fontSize: '28px'
           }}
         >
-          Spinosaurus
+          Pteranodon
         </h1>
         <div style={{ display: "flex", alignItems: "center" }}>
           {/* Ảnh với border-right */}
           <img
-            src="/images/dino1.png"
-            alt="Spinosaurus"
+            src="/images/dino5.png"
+            alt="Pteranodon"
             style={{
               width: "180px",
-              borderRight: "2px solid #a93f7eff",
+              borderRight: "2px solid #7a2faeff",
               marginRight: "10px",
             }}
           />
 
           {/* Text bên phải */}
           <span className="fw-medium">
-            Kích thước dài từ 3-5 mét, nặng 400-500kg
+            Sải cánh rộng 7-10 mét, chiều dài cơ thể khoảng 2 mét, nặng chỉ khoảng 25-35 kg nhờ xương rỗng.
           </span>
         </div>
       </div>
@@ -68,13 +68,13 @@ const Dino1 = () => {
         }}
       >
         <div style={{ fontSize: '18px', color: 'white', textAlign: 'start', }}>
-          <div style={{ border: '1px solid black', borderRadius: '20px', backgroundColor: '#a93f7eff', marginBottom: '15px', padding: '12px', overflowWrap: 'break-word' }}>
+          <div style={{ border: '1px solid black', borderRadius: '20px', backgroundColor: '#7a2faeff', marginBottom: '15px', padding: '12px', overflowWrap: 'break-word' }}>
             <p className="text-center fw-bold">THÔNG TIN</p>
-            Plesiosaurus không phải là khủng long, mà là loài bò sát biển sống cùng thời khủng long. Chúng có cổ dài chiếm gần một nửa cơ thể, bốn chi biến thành vây bơi, thích nghi tuyệt vời với cuộc sống dưới nước. Plesiosaurus chủ yếu ăn cá và động vật giáp xác, dùng cổ dài để tóm mồi nhanh trong khi thân mình giữ yên để không làm cá bỏ chạy.
+            Pteranodon không phải khủng long thật sự mà là một loài bò sát bay. Cánh của chúng được tạo thành từ một màng da căng giữa ngón tay và cơ thể, giúp chúng bay lượn hàng trăm cây số chỉ với vài lần vỗ cánh. Mào lớn trên đầu có thể giúp giữ thăng bằng hoặc điều hướng khi bay.
           </div>
-          <div style={{ border: '1px solid black', borderRadius: '20px', backgroundColor: '#a93f7eff', padding: '12px', overflowWrap: 'break-word' }}>
+          <div style={{ border: '1px solid black', borderRadius: '20px', backgroundColor: '#7a2faeff', padding: '12px', overflowWrap: 'break-word' }}>
             <p className="text-center fw-bold">CẬU CHUYỆN VUI NHỘN</p>
-            Một con Plesiosaurus lặng lẽ trôi dưới mặt biển, cổ nó uốn nhẹ như rắn nước. Khi phát hiện đàn cá nhỏ, nó chỉ cần vươn cổ ra, không hề khuấy động mặt nước - và "tóm!" - cả đàn cá bị nuốt gọn, trở thành bữa ăn ngon lành, trước khi kịp nhận ra chuyện gì đang xảy ra.
+            Một con Pteranodon bay cao trên đại dương, chỉ cần gió biển nâng là nó có thể lượn cả ngày mà không cần nghỉ. Khi thấy bóng cá bơi bên dưới, nó gập cánh và lao xuống như mũi tên - gọn gàng tóm gọn con mồi rồi lại vút lên trời.
           </div>
         </div>
       </div>
@@ -88,4 +88,4 @@ const Dino1 = () => {
   );
 };
 
-export default Dino1;
+export default Dino5;
